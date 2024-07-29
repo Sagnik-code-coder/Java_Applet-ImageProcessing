@@ -1,0 +1,9 @@
+Charsets & Selectors
+The 2 entites used NIO are Charsets & Selectors.
+A Charsets define the way that byte are not characters.you can import a sequence of character into bytes using an encoder.You can decode the use of byte into character using a decoder. Charsets,Encoder and Decoder are supported by classes defined by NIO packages.
+Because default encoders and decoders are provided. You will not often to work expictly with Charsets
+
+A selector key based,non blocking, multiplexed IO the other words selector enables you to perform IO through multiple channel. Selectors are supported by class defining java.nio package.
+
+Using new IO system
+Because the most common IO device  is filed we are examine how to access this file using new IO system to reading a file
